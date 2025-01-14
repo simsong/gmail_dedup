@@ -1,0 +1,22 @@
+[project]
+name = "remove_apple_autosave"
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["gmail", "dedup"]
+
+
+description = "remove apple backup files from gmail archive"
+dependencies = [
+  "google-api-python-client",
+  "google-auth-httplib2",
+  "google-auth-oauthlib",
+  "ratelimiter"
+]
+authors = [
+  {name = "Simson Garfinkel", email = "simsong@acm.org"},
+]
+maintainers = [
+  {name = "Simson Garfinkel", email = "simsong@acm.org"},
+]
+
+[project.urls]
+Repository = "https://github.com/simsong/remove_apple_autosave.git"
